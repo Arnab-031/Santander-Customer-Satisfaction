@@ -1,2 +1,4 @@
 # Santander-Customer-Satisfaction
-Santander Bank aims to identify dissatisfied customers early to boost retention. Many unhappy customers leave without raising concerns. By predicting dissatisfaction, Santander can proactively address issues, enhance experiences, and build loyalty. This initiative ensures customer satisfaction and strengthens long-term relationships.
+# Overview
+Customer satisfaction is a vital metric for success across all levels, from support teams to executives. Dissatisfied customers often leave silently, without expressing their concerns. Santander Bank challenges Kagglers to predict dissatisfied customers early, enabling proactive actions to enhance their experience and prevent churn. In this project, I analyzed hundreds of anonymized features to determine whether customers were satisfied or dissatisfied with their banking experience.
+
