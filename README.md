@@ -4,23 +4,23 @@ Customer satisfaction is a vital metric for success across all levels, from supp
 The uploaded Jupyter Notebook analyzes customer satisfaction using machine learning models, primarily Decision Trees. Below is an analysis of the key features, technologies used, and key insights:
 
 # Key Features
-	1.	Data Preparation:
-	•	Dropped irrelevant columns (ID) and separated the target variable (TARGET).
-	•	Split data into training and validation sets.
-	2.	Exploratory Data Analysis (EDA):
-	•	Visualized distribution relationships (e.g., num_var22_ult3 by TARGET).
-	3.	Model Training and Evaluation:
-	•	Implemented multiple Decision Tree models:
-	•	Baseline Model.
-	•	Depth-limited model (max_depth=5).
-	•	Entropy criterion model.
-	•	Limited leaf nodes (max_leaf_nodes=10).
-	•	Evaluated models using ROC AUC scores.
-	4.	Custom Model Evaluation:
-	•	Defined a reusable function to train models and evaluate AUC.
-	5.	Final Predictions:
-	•	Used the best-performing model (max_depth=5) for test predictions.
-	•	Prepared a submission file.
+1.	Data Preparation:
+Dropped irrelevant columns (ID) and separated the target variable (TARGET).
+Split data into training and validation sets.
+2.	Exploratory Data Analysis (EDA):
+Visualized distribution relationships (e.g., num_var22_ult3 by TARGET).
+3.	Model Training and Evaluation:
+Implemented multiple Decision Tree models:
+Baseline Model.
+Depth-limited model (max_depth=5).
+Entropy criterion model.
+Limited leaf nodes (max_leaf_nodes=10).
+Evaluated models using ROC AUC scores.
+4.	Custom Model Evaluation:
+Defined a reusable function to train models and evaluate AUC.
+5.	Final Predictions:
+Used the best-performing model (max_depth=5) for test predictions.
+Prepared a submission file.
 
 # Technologies Used
 	1.	Programming Language:
