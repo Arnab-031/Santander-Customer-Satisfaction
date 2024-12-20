@@ -23,23 +23,23 @@ Used the best-performing model (max_depth=5) for test predictions.
 Prepared a submission file.
 
 # Technologies Used
-	1.	Programming Language:
-	•	Python.
-	2.	Data Manipulation and Analysis:
-	•	Libraries: pandas, numpy.
-	3.	Visualization:
-	•	Library: seaborn, matplotlib.
-	4.	Machine Learning:
-	•	Models: DecisionTreeClassifier from sklearn.
-	•	Evaluation Metric: roc_auc_score.
+1.	Programming Language:
+Python.
+2.	Data Manipulation and Analysis:
+Libraries: pandas, numpy.
+3.	Visualization:
+Library: seaborn, matplotlib.
+4.	Machine Learning:
+Models: DecisionTreeClassifier from sklearn.
+Evaluation Metric: roc_auc_score.
 # Dataset
 https://www.kaggle.com/c/santander-customer-satisfaction/data
 
 # Key Insights
-	1.	Decision Tree with limited depth (max_depth=5) achieved the highest ROC AUC (0.8183), outperforming the baseline (0.5747).
-	2.	EDA revealed significant differences in transaction counts over the last three months (num_var22_ult3) between satisfied and unsatisfied customers.
-	3.	Limiting the complexity of the model (e.g., max_depth, max_leaf_nodes) improves predictive performance by preventing overfitting.
-	4.	Using entropy as the splitting criterion did not improve model performance compared to the Gini index.
-	5.	The structured evaluation pipeline ensures reproducibility and ease of comparison across models.
+1.	Decision Tree with limited depth (max_depth=5) achieved the highest ROC AUC (0.8183), outperforming the baseline (0.5747).
+2.	EDA revealed significant differences in transaction counts over the last three months (num_var22_ult3) between satisfied and unsatisfied customers.
+3.	Limiting the complexity of the model (e.g., max_depth, max_leaf_nodes) improves predictive performance by preventing overfitting.
+4.	Using entropy as the splitting criterion did not improve model performance compared to the Gini index.
+5.	The structured evaluation pipeline ensures reproducibility and ease of comparison across models.
 
 ￼
